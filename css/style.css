@@ -1,0 +1,32 @@
+body {
+    background: #e2e7e9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e2e7e9, #fdfdfd); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e2e7e9, #fdfdfd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+    font-size: 34px;
+    color: rgb(12, 12, 12);
+    font-family: 'Playfair Display', serif;
+}
+form {
+    margin: 50px auto;
+}
+.main-content {
+    margin: 50px auto;
+    background-color: white;
+    -webkit-box-shadow: -1px 20px 52px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 20px 52px -13px rgba(0,0,0,0.75);
+    box-shadow: -1px 20px 52px -13px rgba(0,0,0,0.75);
+}
+.messages {
+    color: rgb(12, 12, 12);
+}
+#result {
+    text-align: center;
+}
+.btn {
+    width: 100%;
+}
+.spinner  {
+    text-align: center;
+}
