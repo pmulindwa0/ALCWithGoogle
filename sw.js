@@ -10,6 +10,10 @@ self.addEventListener('install', (e) => {
           '/css/materialize.min.css',
           'https://fonts.googleapis.com/css?family=Playfair+Display',
           '/js/materialize.min.js',
+          '/js/main.js',
+          '/js/ui.js',
+          '/js/app.js',
+          '/js/currencyAPI.js',
           'https://code.jquery.com/jquery-3.2.1.min.js'
         ]);
       })
